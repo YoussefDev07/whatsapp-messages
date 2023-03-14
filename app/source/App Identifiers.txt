@@ -1,0 +1,7 @@
+IOS BUNDLE ID: io.gonative.ios.xwozlk
+
+ANDROID PACKAGE NAME: io.gonative.android.xwozlk
+
+VERSION: 1.0.0
+
+ID: tyr8jr0y6gah7rhka14vkeftvm

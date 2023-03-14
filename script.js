@@ -1,7 +1,7 @@
 // media
 
 const message = "Send Whatsapp Messages To Any Number Without Add it To Contacts!\nارسل رسائل واتساب إلى أي رقم دون إضافته إلى جهات الاتصال!".replace(/\n/g, "%0D%0A").replace(/ /g, "%20");
-const url = "file:///C:/xampp/htdocs/www/Whatsapp%20Messages/index.html";
+const url = "https://youssefover.github.io/whatsapp-messages";
 
 $("#whatsapp").click(function(){
   window.open("https://wa.me/?text=" + `${message}\n\n${url}`.replace(/\n/g, "%0D%0A"));

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html type="text/html">
+  <head>
+   <!--meta-->
+    <meta charset = "utf-8"/>
+    <meta name = "keywords" content = "Whatsapp, Message"/>
+    <meta name = "theme-color" content = "#02b209"/>
+    <meta name = "author" content = "Youssef Over"/>
+    <meta name = "robots" content = "index"/>
+    <meta property = "og:title" content = "Whatsapp Messages"/>
+    <meta property = "og:description" content = "Send Whatsapp Messages To Any Number Without Add it To Contacts!"/>
+    <meta property = "og:image" content = "./Whatsapp Messages.png"/>
+   <!--link-->
+    <link rel="icon" type="image/png" href="./Whatsapp Messages.png"/>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" media="all" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"/>
+   <!--title-->
+    <title>Whatsapp Messages</title>
+   <!--script-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="application/javascript" src="./script.js" async></script>
+    <noscript>JavaScript must be activated to connect with Whatsapp.</noscript>
+  </head>
+  <body>
+   <!--container-->
+    <div class="_container">
+     <!--header-->
+      <header>
+       <!--share-->
+        <nav class="share">
+         <!--text-->
+          <span class="text"><i class="fas fa-share-alt"></i>Share With:</span>
+        </nav>
+       <!--media-->
+        <nav class="media">
+         <img title="Whatsapp" id="whatsapp" src="./media/whatsapp.png">
+         <img title="Facebook" id="facebook" src="./media/facebook.png">
+         <img title="Massegner" id="massenger" src="./media/massenger.png">
+         <img title="Twitter" id="twitter" src="./media/twitter.png">
+         <img title="Copy Link" id="link" src="./media/link.png">
+        </nav>
+      </header>
+     <!--main-->
+      <main>
+       <!--htitle-->
+        <section class="htitle">
+         <h1><i class="fab fa-whatsapp-square"></i>Whatsapp Messages</h1>
+         <p>Send Whatsapp Messages To Any Number Without Add it To Contacts!</p>
+        </section>
+       <!--w-->
+        <section class="w">
+         <input type="tel" id="number" minlength="8" maxlength="19" placeholder="Number Phone" autocomplete="off" autofocus required>
+         <button type="submit" id="chat" disabled><i class="fas fa-paper-plane"></i> Start Chat in Whatsapp</button>
+        </section>
+      </main>
+     <!--footer-->
+      <footer>
+       <!--copied-->
+        <div class="copied"><i class="far fa-check-circle"></i> Copied!</div>
+      </footer>
+    </div>
+  </body>
+ </html>

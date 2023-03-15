@@ -31,7 +31,7 @@ $("#link").click(function(){
 
 // w
 
-$("#number").change(function(){
+$("#number").keyup(function(){
   let number = document.getElementById("number");
   if (number.value.length < 8) {
     $("#chat").attr("disabled", "");

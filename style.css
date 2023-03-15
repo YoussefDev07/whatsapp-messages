@@ -103,6 +103,10 @@ header {
   cursor: pointer;
 }
 
+#massenger {
+  display: none;
+}
+
 /*media: media*/
 
 @media (max-width:999px) {
@@ -114,6 +118,14 @@ header {
    width: 65px;
    height: 65px;
    margin-left: 10px;
+  }
+  
+  #massenger {
+   display: inline-block;
+  }
+  
+  #link {
+    display: none;
   }
 }
 
@@ -285,18 +297,4 @@ footer {
 
 .copied i {
   margin-right: 10px;
-}
-
-/*media: copied*/
-
-@media (max-width:999px) {
-  .copied {
-   width: 35%;
-   height: 80px;
-   font-size: 50px;
-  }
-
-  .copied i {
-   margin-right: 15px;
-  }
 }

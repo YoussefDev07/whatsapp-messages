@@ -42,5 +42,12 @@ $("#number").keyup(function(){
 
 $("#chat").click(function(){
   let phone = document.getElementById("number").value.replace("+", "").replace("(", "").replace(")", "").replace(/-/g, "").replace(/ /g, "");
+  if (phone.startsWith("05")) {
+    phone = phone.replace("05", "966");
+  }
+  else if (phone.startsWith("0020")) {
+    phone = phone.replace("0020", "20");
+  }
+
   window.location.href = "https://api.whatsapp.com/send?phone=" + phone;
 });

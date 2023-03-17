@@ -122,6 +122,10 @@ header {
   #massenger {
    display: inline-block;
   }
+  
+  #link {
+    display: none;
+  }
 }
 
 /*main*/
@@ -292,18 +296,4 @@ footer {
 
 .copied i {
   margin-right: 10px;
-}
-
-/*media: copied*/
-
-@media (max-width:999px) {
-  .copied {
-   width: 35%;
-   height: 80px;
-   font-size: 50px;
-  }
-
-  .copied i {
-   margin-right: 15px;
-  }
 }

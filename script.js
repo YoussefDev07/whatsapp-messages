@@ -1,6 +1,6 @@
 // media
 
-const message = "%F0%9F%87%BA%F0%9F%87%B8 Send Whatsapp Messages To Any Number Without Add it To Contacts!\nارسل رسائل واتساب إلى أي رقم دون إضافته إلى جهات الاتصال! %F0%9F%87%B8%F0%9F%87%A6".replace(/\n/g, "%0D%0A").replace(/ /g, "%20");
+const message = "Send Whatsapp Messages To Any Number Without Add it To Contacts!\nارسل رسائل واتساب إلى أي رقم دون إضافته إلى جهات الاتصال!".replace(/\n/g, "%0D%0A").replace(/ /g, "%20");
 const url = "https://youssefover.github.io/whatsapp-messages";
 const q = "\n\n🌐 ";
 const qu = "%0D%0A%0D%0A%F0%9F%8C%90%20";

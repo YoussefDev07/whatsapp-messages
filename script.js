@@ -1,4 +1,4 @@
-alert("Correct writing: +000 000000000\nWrong writing: 0000000000");
+alert("Correct writing: +XXX 000000000\nWrong writing: 0000000000");
 
 // media
 
